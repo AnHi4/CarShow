@@ -20,5 +20,6 @@ public class main {
         System.out.println(kitThird);
         System.out.println("Odo is about " + carThird.getOdo());
         System.out.println(carThird.askQ());
+       // System.out.println();
     }
 }
