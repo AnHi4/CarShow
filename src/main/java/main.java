@@ -9,12 +9,12 @@ public class main {
         System.out.println();
         Car carSecond = new Car("Жигули", "Universal", -1995);
         Kit kitSecond = new Kit("Жигули", "Universal", -1995, false, -5, "нищий урод");
-        Car carThird = new Car("McClaren", "Sport Coupe", 2022);
         System.out.println(carSecond);
         System.out.println(kitSecond);
         System.out.println("Odo is about " + carSecond.getOdo());
         System.out.println(carSecond.askQ());
         System.out.println();
+        Car carThird = new Car("McClaren", "Sport Coupe", 2022);
         Kit kitThird = new Kit("McClaren", "Sport Coupe", 2022, false, 56, "Starter Pack +");
         System.out.println(carThird);
         System.out.println(kitThird);
